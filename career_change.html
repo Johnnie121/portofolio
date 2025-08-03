@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Career Aspirational Change | John Ojeah</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll("section");
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    });
+      sections.forEach((section) => {
+      observer.observe(section);
+    });
+  });
+</script>
+
+
+</head>
+<body>
+  <header>
+    <h1>Career Aspirational Change</h1>
+    <nav>
+      <a href="index.html">← Back to Home</a>
+    </nav>
+  </header>
+
+  <section>
+    <img src="/asset/pics_1.png" alt="Dashboard Screenshot" class="project-img" />
+    <p>In today’s evolving work environment, Gen-Z is becoming a dominant part of the global workforce. Businesses are increasingly facing difficulty in attracting, engaging, and retaining Gen-Z employees. This poses a significant business challenge because:</p>
+
+    <ul>
+      <li><strong>Talent Retention Impacts Performance and Profitability:</strong> High turnover rates among Gen-Z employees lead to increased recruitment and training costs. Losing young, innovative talent also affects continuity and knowledge retention within teams.</li>
+      <li><strong>Employer Branding and Talent Acquisition:</strong> Companies that fail to meet Gen-Z’s expectations face reputational risks on LinkedIn, Glassdoor, or X (formerly Twitter), reducing the quality of applicants they attract.</li>
+      <li><strong>Mismatch Between Job Roles and Aspirations:</strong> Many Gen-Zs pursue careers that reflect personal values and creativity, but employers often emphasize stability and hierarchy.</li>
+      <li><strong>Changing Nature of Work:</strong> Gen-Z expects tech-driven collaboration and flexible models. Employers who haven’t adapted are perceived as outdated.</li>
+    </ul>
+
+    <h3>📌 Objective</h3>
+     <img src="/asset/pics_2.png" alt="Dashboard Screenshot" class="project-img" />
+    <p>
+      This project explores the misalignment between Gen Z professionals and traditional employers through case observations, data-backed reasoning, and personal experiences. It aims to help organizations improve Gen Z recruitment, engagement, and retention strategies.
+    </p>
+
+    <a href="https://github.com/Johnnie121/Kulture_analysis/" target="_blank">View Full Project on GitHub</a>
+  </section>
+
+  <footer>
+    <p>© 2025 John Ojeah  📧 ojeahjohn2018@gmail.com</p>
+    <p>
+      <a href="https://www.linkedin.com/in/john-ojeah/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+      &nbsp;
+      <a href="https://github.com/Johnnie121" target="_blank"><i class="fa fa-github"></i></a>
+    </p>
+  </footer>
+</body>
+</html>
